@@ -1,0 +1,13 @@
+<div class="portal-button-container">
+	<button class="portal mdl-button mdl-js-button mdl-button--fab mdl-button--colored" (click)="hit()" [attr.health]="percentHealth">
+		<i class="material-icons">warning</i>
+	</button>
+</div>
+
+
+<template [ngIf]="creatures.length">
+	<div *ngFor="let creep of creatures">
+		<creature [creature]="creep"></creature>
+	</div>	
+</template>
+

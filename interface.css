@@ -1,0 +1,10 @@
+@import 'styles.css';
+@import 'app/app.component.css';
+@import 'app/portal.component.css';
+@import 'app/weapon.component.css';
+@import 'app/creature.component.css';
+@import 'app/weapon.component.css';
+
+.creature {
+	display:inline-block;
+}
